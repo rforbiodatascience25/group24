@@ -18,6 +18,12 @@ Hi! This is my change
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Hey ¿¿¿¿¿
+w
+hola
+
 #### Lanjing
 ajksndkajsdnkajd
 My name is Lan
@@ -34,13 +40,9 @@ Hey
 =======
 Hey ¿¿¿¿¿
 <<<<<<< HEAD
->>>>>>> 618d7da3a8ddd80ebc8df5146ab4356411cc8deb
 
 =======
 w
->>>>>>> 7796943424ac959d27c6feb8d4275808b6bc3c53
-#### Lanjing
->>>>>>> 47dce524d68934ea5007f85c24c67497351c9abc
 
 #### Christian
 
