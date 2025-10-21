@@ -14,13 +14,10 @@ My name is Helena
 
 #### Eche
 
+Hey
+
 #### Lanjing
 
 HOLAHOLAHOLA
 
 #### Christian
-
-```{r}
-a <- 3 + 4
-a
-```
