@@ -14,6 +14,7 @@ My name is Helena
 
 #### Eche
 
+<<<<<<< HEAD
 ####Lanjing
 
 My name is Lan
@@ -25,6 +26,11 @@ y = x*10
 x
 y
 ```
+=======
+Hey
+
+#### Lanjing
+>>>>>>> 47dce524d68934ea5007f85c24c67497351c9abc
 
 #### Christian
 
