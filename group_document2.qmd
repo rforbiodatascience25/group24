@@ -15,3 +15,8 @@ editor: visual
 #### Lanjing
 
 #### Christian
+
+```{r}
+a <- 3 + 4
+a
+```
