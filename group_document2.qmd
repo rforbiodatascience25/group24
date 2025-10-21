@@ -38,3 +38,12 @@ HOLAHOLAHOLA
 a <- 3 + 5
 a
 ```
+
+##### New feature
+
+This is Christian's update:
+
+```{r}
+b <- a * 2
+b
+```
