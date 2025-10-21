@@ -28,3 +28,9 @@ HOLAHOLAHOLA
 a <- 3 + 5
 a
 ```
+
+### Lan Lan lan 
+
+```{r}
+2+2
+```
