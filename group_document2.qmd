@@ -14,6 +14,12 @@ My name is Helena
 
 text
 
+##### new feature
+
+```{r}
+2/1
+```
+
 #### Eche
 
 Hey
