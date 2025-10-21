@@ -14,11 +14,8 @@ My name is Helena
 
 #### Eche
 
+Hey
+
 #### Lanjing
 
 #### Christian
-
-```{r}
-a <- 3 + 4
-a
-```
