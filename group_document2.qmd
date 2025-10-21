@@ -22,6 +22,12 @@ d
 
 text
 
+##### new feature
+
+```{r}
+2/1
+```
+
 #### Eche
 
 Hey
