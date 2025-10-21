@@ -10,6 +10,14 @@ editor: visual
 
 My name is Helena
 
+##### New analysis
+
+```{r}
+c <- 2*12
+d <- 3*c
+d
+```
+
 #### Pernille
 
 text
@@ -17,6 +25,8 @@ text
 #### Eche
 
 Hey
+
+## new feature
 
 #### Lanjing
 
@@ -27,4 +37,10 @@ HOLAHOLAHOLA
 ```{r}
 a <- 3 + 5
 a
+```
+
+### Lan Lan lan 
+
+```{r}
+2+2
 ```
