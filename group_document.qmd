@@ -19,7 +19,7 @@ Hi! This is my change
 <<<<<<< HEAD
 <<<<<<< HEAD
 #### Lanjing
-ajksndkajsdnkaj
+ajksndkajsdnkajd
 My name is Lan
 
 ```{r}
