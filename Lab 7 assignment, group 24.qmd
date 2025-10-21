@@ -18,3 +18,58 @@ Pernille Renkwitz, s204637
 Inmaculada Echegoyan Venegas, s253701
 
 Lanjing Buisan Fernandez, s256855
+
+### Load libraries
+
+```{r}
+#| message: false  
+library(tidyverse) 
+library(broom) 
+library(ggrepel)
+```
+
+### Load data
+
+Load data:
+
+```{r}
+raw_dir <- "data/"
+data_file <- "gravier.RData"
+data_loc <- "https://github.com/ramhiser/datamicroarray/raw/master/data/"
+
+if( !dir.exists(raw_dir) ){
+  dir.create(path = raw_dir)
+}
+if( !file.exists(str_c(raw_dir, data_file)) ){
+  download.file(
+    url = str_c(data_loc, data_file),
+    destfile = str_c(raw_dir, data_file))
+}
+load(file = str_c(raw_dir, data_file))
+```
+
+Clean and augment data:
+
+```{r}
+gravier_clean <- gravier |>
+  bind_cols() |>
+  as_tibble()
+
+gravier_clean_aug <- gravier_clean |>
+  mutate(y = case_when(y == "poor" ~ 1,
+                       y == "good" ~ 0)) |> 
+  relocate(early_metastasis = y)
+```
+
+### Data wrangling
+
+The data is transformed to long data:
+
+```{r}
+gravier_clean_aug_long <- gravier_clean_aug |> 
+  pivot_longer(
+  cols = starts_with("g"),
+  names_to = "gene",
+  values_to = "log2_expr_level"
+  )
+```
