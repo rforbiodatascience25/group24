@@ -13,8 +13,18 @@ My name is Helena
 #### Pernille
 
 #### Eche
-Hey
-#### Lanjing
+
+####Lanjing
+
+My name is Lan
+
+```{r}
+2+2
+x = 5
+y = x*10
+x
+y
+```
 
 #### Christian
 
