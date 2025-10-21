@@ -18,4 +18,11 @@ Hey
 
 #### Lanjing
 
+HOLAHOLAHOLA
+
 #### Christian
+
+```{r}
+a <- 3 + 5
+a
+```
