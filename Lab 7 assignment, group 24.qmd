@@ -1,0 +1,8 @@
+---
+title: "Lab 7 assignment, group 24"
+author: "Group 24"
+format: html
+editor: visual
+---
+
+## Group 24
