@@ -6,3 +6,23 @@ editor: visual
 ---
 
 ## Group 24
+
+### Group members
+
+Helena Utzon , S153655
+
+Christian Hussing, S150251
+
+Pernille Renkwitz, s204637
+
+Inmaculada Echegoyan Venegas, s253701
+
+Lanjing Buisan Fernandez, s256855
+
+### Plan for report
+
+Data: gravier
+
+Import and data wrangling:
+
+Analysis: Everyone contributes with a graph or something else
