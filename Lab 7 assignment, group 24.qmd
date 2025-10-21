@@ -81,3 +81,20 @@ gravier_clean_aug_long <- gravier_clean_aug |>
   values_to = "log2_expr_level"
   )
 ```
+
+#### Investigation of data: Are expression levels normally distributed?
+
+The expression level distribution of four genes were visualized:
+
+```{r}
+onlyg1 <- gravier_clean_aug_long |>
+  filter(gene == "g1A01" | gene == "g1E02" | gene == "g1E03" | gene == "g1E04")
+
+ggplot(onlyg1, aes(log2_expr_level)) +
+  geom_histogram() +
+  facet_wrap(~gene ~early_metastasis, nrow = 2, dir = "v") +
+  labs(title = "Distribution of four genes", 
+       subtitle = "0 : Patients without early metastasis, 1 : Patients with early metastasis")
+```
+
+The distribution of three of the genes seemed normally distributed, while the last gene had a distribution skewed towards higher expression level for both patients with and without early metastasis.
