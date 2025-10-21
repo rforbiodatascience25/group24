@@ -1,0 +1,17 @@
+---
+title: "group_document2"
+format: html
+editor: visual
+---
+
+## Group 24 lab 07
+
+#### Helena
+
+#### Pernille
+
+#### Eche
+
+#### Lanjing
+
+#### Christian
