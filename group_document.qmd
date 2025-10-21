@@ -16,7 +16,38 @@ Hi! This is my change
 
 #### Eche
 
+<<<<<<< HEAD
 Hey ¿¿¿¿¿ w \#### Lanjing
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Hey ¿¿¿¿¿
+w
+hola
+
+#### Lanjing
+ajksndkajsdnkajd
+My name is Lan
+HELLOOOOOOOOO
+
+```{r}
+2+2
+x = 5
+y = x*10
+x
+y
+```
+=======
+Hey
+=======
+Hey ¿¿¿¿¿
+<<<<<<< HEAD
+
+=======
+w
+>>>>>>> 4769f995385254efc81ad655a6a357594a049e7e
 
 #### Christian
 
