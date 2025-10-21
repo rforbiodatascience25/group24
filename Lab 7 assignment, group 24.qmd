@@ -54,6 +54,7 @@ if( !file.exists(str_c(raw_dir, data_file)) ){
     destfile = str_c(raw_dir, data_file))
 }
 load(file = str_c(raw_dir, data_file))
+gravier
 ```
 
 Clean and augment data:
@@ -67,6 +68,7 @@ gravier_clean_aug <- gravier_clean |>
   mutate(y = case_when(y == "poor" ~ 1,
                        y == "good" ~ 0)) |> 
   relocate(early_metastasis = y)
+gravier_clean_aug
 ```
 
 ### Data wrangling
@@ -80,4 +82,12 @@ gravier_clean_aug_long <- gravier_clean_aug |>
   names_to = "gene",
   values_to = "log2_expr_level"
   )
+gravier_clean_aug_long
+
+```
+
+```{r}
+gravier_mean_gene_expression <- gravier_clean_aug_long |> group_by(gene, early_metastasis) |>
+  summarise(mean_gene_expression = round(mean(log2_expr_level), 4))
+gravier_mean_gene_expression
 ```
