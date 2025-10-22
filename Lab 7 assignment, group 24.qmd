@@ -98,3 +98,9 @@ ggplot(onlyg1, aes(log2_expr_level)) +
 ```
 
 The distribution of three of the genes seemed normally distributed, while the last gene had a distribution skewed towards higher expression level for both patients with and without early metastasis.
+
+#### Impact of g1E02 expression on prognosis
+
+```{r}
+
+```
