@@ -102,6 +102,15 @@ The distribution of three of the genes seemed normally distributed, while the la
 #### Impact of g1E02 expression on prognosis
 
 ```{r}
+ggplot(data = gravier_clean, aes(x = g1E02, fill = y)) +
+  geom_density(alpha = 0.6) +
+  scale_fill_viridis_d() +
+  theme_minimal() +
+  labs(title = "Prognostic DNA signature of T1T2 node-negative breast cancer patients",
+       x = "Expression of g1E02 (log2 transformed)", 
+       fill = "Outcome")
 
 
 ```
+
+The graph shows the expression of g1E02 in patients without- and with early metastasis (labelled good and poor). It shows that patients with early metastasis generally had a lower expression of g1E02 compared to patients who did not have early metastasis.
