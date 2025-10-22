@@ -114,3 +114,23 @@ ggplot(data = gravier_clean, aes(x = g1E02, fill = y)) +
 ```
 
 The graph shows the expression of g1E02 in patients without- and with early metastasis (labelled good and poor). It shows that patients with early metastasis generally had a lower expression of g1E02 compared to patients who did not have early metastasis.
+
+
+
+
+## Distribution of gene expression levels according to early metastasis status
+
+
+```{r}
+
+ggplot(gravier_clean_aug_long, aes(x = factor(early_metastasis), y = log2_expr_level, fill = factor(early_metastasis))) +
+  geom_violin(trim = FALSE, alpha = 0.6) +
+  geom_jitter(width = 0.2, alpha = 0.7, size = 2) +
+  labs(x = "Early metastasis", y = "Expression level") +
+  theme_minimal() +
+  scale_fill_manual(values = c("0" = "#66C2A5", "1" = "#FC8D62"))
+
+```
+
+
+This violin plot illustrates the distribution of log₂-transformed gene expression levels in samples classified by early metastasis status (0 = no early metastasis, 1 = early metastasis). The width of each violin represents the density of samples at a given expression level, while the individual points show the expression values of each sample. A higher median or overall shift in expression in one group may indicate a potential association between gene expression and early metastatic behavior
