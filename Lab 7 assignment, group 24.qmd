@@ -82,6 +82,8 @@ gravier_clean_aug_long <- gravier_clean_aug |>
   )
 ```
 
+Getting the mean of the gene expression
+
 ```{r}
 gravier_mean_gene_expression <- gravier_clean_aug_long |> group_by(gene, early_metastasis) |>
   summarise(mean_gene_expression = round(mean(log2_expr_level), 4))
