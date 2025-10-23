@@ -92,5 +92,3 @@ gravier_mean_gene_expression <- gravier_clean_aug_long |> group_by(gene, early_m
 gravier_mean_gene_expression
 
 ```
-
-ñ
